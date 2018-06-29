@@ -11,6 +11,7 @@ public class Sample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
+			
 			/*// load the Driver Class
 			 Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
 		      //getTime() returns the current date in default time zone
@@ -58,6 +59,7 @@ System.out.println(dateFormat.format(as));*/
 			   //System.out.println("Today's date is "+dateFormat.format(cal.getTime()));
 			   Calendar cal1 = Calendar.getInstance();
 			   cal1.add(Calendar.DATE, 0);
+			   System.out.println("Yesterday's date was "+dateFormat.format(cal1.getTime())); 
 			   System.out.println("Yesterday's date was "+dateFormat.format(cal1.getTime())); 
 			   System.out.println(dateIssuedOrig.equals(dateFormat.format(cal1.getTime())));
 		} catch (Exception  e) {				
